@@ -1,0 +1,44 @@
+.app .rad {
+  width: 2em;
+  margin-right: 0.3em;
+  margin-left: 0.3em; 
+  text-align: center;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+
+  background-image: linear-gradient(rgb(106, 85, 155), #9999ff,rgb(106, 85, 155));                         
+}
+
+.app .zelle {
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  border-width: .1em .1em .1em .1em;
+  border-style: solid;
+  border-color: rgb(106, 85, 155);
+}
+
+.app .mitte {
+  height: 2.4em;
+  font-size: 1.1em;
+  border-width: .2em .2em .2em .2em;
+  border-color: white;
+  padding: .4em;
+}
+.app .fastmitte {
+  height: 2em;
+  font-size: 1em;
+  padding: .2em;
+}
+
+.app .rand {
+  height: 1.5em;
+  font-size: 1em;
+  padding-bottom: .3em;
+}
